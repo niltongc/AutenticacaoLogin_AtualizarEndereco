@@ -1,0 +1,44 @@
+﻿@model List<AssociadoModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Associado</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@* <div class="btn-group" role="group">
+    <a role="button" class="btn btn-primary">Editar</a>
+    </div> *@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Dados do associado</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @if (Model != null && Model.Any())
+        {
+            foreach (var associado in Model)
+            {
+                <tr>
+                    <td>Nome:</td>
+                    <td>id</td>
+                </tr>
+                <tr>
+                    <td>Endereço:</td>
+                    <td>@associado.Endereco</td>
+                    <td>
+                        <div class="btn-group" role="group">
+                            <a role="button" class="btn btn-primary" asp-route-id="@associado.Id" asp-controller="Associado"
+                        asp-action="Editar">Editar</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
