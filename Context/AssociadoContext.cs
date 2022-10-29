@@ -14,5 +14,6 @@ namespace ProAuto.Context
 
         }
         public DbSet<AssociadoModel> Associados { get; set; }
+
     }
 }

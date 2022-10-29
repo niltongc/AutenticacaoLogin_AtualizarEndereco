@@ -16,6 +16,7 @@ namespace ProAuto.Controllers
         {
             _context = context;
         }
+        
         public IActionResult Index()
         {
             var associado = _context.Associados.ToList();
@@ -41,7 +42,16 @@ namespace ProAuto.Controllers
             _context.Associados.Update(associadoDB);
             _context.SaveChanges();
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Detalhes), new{id = associado.Id});
+        }
+        public IActionResult Detalhes(int id)
+        {
+            var associado = _context.Associados.Find(id);   
+            if(associado == null)
+            {
+                return NotFound();
+            }
+            return View(associado);
         }
 
     }

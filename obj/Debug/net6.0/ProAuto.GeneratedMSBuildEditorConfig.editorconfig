@@ -15,12 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/nilton/Documentos/programing/processo_seletivo/ProAuto
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/nilton/Documentos/programing/processo_seletivo/ProAuto/Views/Associado/Detalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXNzb2NpYWRvL0RldGFsaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/nilton/Documentos/programing/processo_seletivo/ProAuto/Views/Associado/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXNzb2NpYWRvL0VkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/nilton/Documentos/programing/processo_seletivo/ProAuto/Views/Associado/EditarCerto.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXNzb2NpYWRvL0VkaXRhckNlcnRvLmNzaHRtbA==
+[/home/nilton/Documentos/programing/processo_seletivo/ProAuto/Views/Associado/Editarcerto2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXNzb2NpYWRvL0VkaXRhcmNlcnRvMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/nilton/Documentos/programing/processo_seletivo/ProAuto/Views/Associado/Index.cshtml]
