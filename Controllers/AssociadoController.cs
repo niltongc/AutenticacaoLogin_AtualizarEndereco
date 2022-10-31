@@ -53,6 +53,10 @@ namespace ProAuto.Controllers
             }
             return View(associado);
         }
+        public IActionResult Sair()
+        {
+            return RedirectToAction("Index", "Login");
+        }
 
     }
 }

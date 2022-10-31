@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QzipFcbmZW/AvE38g6Ywu+bgc+vEHTapX6QZTORl3RE=",
+  "Hash": "KxlKrpmVr2HYT1J8veKjvkWRHp8IOnZe12rvGO6VR78=",
   "Source": "ProAuto",
   "BasePath": "_content/ProAuto",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "/home/nilton/Documentos/programing/processo_seletivo/ProAuto/obj/Debug/net6.0/scopedcss/bundle/ProAuto.styles.css",
-      "SourceId": "ProAuto",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/nilton/Documentos/programing/processo_seletivo/ProAuto/obj/Debug/net6.0/scopedcss/bundle/",
-      "BasePath": "_content/ProAuto",
-      "RelativePath": "ProAuto.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/nilton/Documentos/programing/processo_seletivo/ProAuto/obj/Debug/net6.0/scopedcss/bundle/ProAuto.styles.css"
-    },
-    {
-      "Identity": "/home/nilton/Documentos/programing/processo_seletivo/ProAuto/obj/Debug/net6.0/scopedcss/projectbundle/ProAuto.bundle.scp.css",
-      "SourceId": "ProAuto",
-      "SourceType": "Computed",
-      "ContentRoot": "/home/nilton/Documentos/programing/processo_seletivo/ProAuto/obj/Debug/net6.0/scopedcss/projectbundle/",
-      "BasePath": "_content/ProAuto",
-      "RelativePath": "ProAuto.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/nilton/Documentos/programing/processo_seletivo/ProAuto/obj/Debug/net6.0/scopedcss/projectbundle/ProAuto.bundle.scp.css"
-    },
     {
       "Identity": "/home/nilton/Documentos/programing/processo_seletivo/ProAuto/wwwroot/css/site.css",
       "SourceId": "ProAuto",
@@ -1069,6 +1035,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/home/nilton/Documentos/programing/processo_seletivo/ProAuto/wwwroot/logo.png",
+      "SourceId": "ProAuto",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/nilton/Documentos/programing/processo_seletivo/ProAuto/wwwroot/",
+      "BasePath": "_content/ProAuto",
+      "RelativePath": "logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/logo.png"
     }
   ]
 }

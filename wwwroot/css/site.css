@@ -16,3 +16,11 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.cor-fonte{
+  color: white;
+}
+
+.cor-fundo{
+  background-color: #09365d;
+}

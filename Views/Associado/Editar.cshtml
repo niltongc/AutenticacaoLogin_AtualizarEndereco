@@ -1,16 +1,12 @@
 @model AssociadoModel
 @{
+    Layout = "_LayoutDeslogado";
     ViewData["Title"] = "Editar Endereço";
 }
-<h1>Teste</h1>
-<div class="text-center">
-    <h1 class="display-4">Associado</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
-
 
 <form asp-controller="Associado" asp-action="Atualizar" method="post">
     <input type="hidden" asp-for="Id" >
+    <h2 class="mt-3">Altere seu Endereço</h2>
     <div>
         <label for="endereco" class="form-label"></label>
         <input type="text" asp-for="Endereco" class="form-control">

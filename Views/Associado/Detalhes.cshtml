@@ -1,17 +1,16 @@
 @model AssociadoModel
 @{
+    Layout = "_LayoutDeslogado";
     ViewData["Title"] = "Página do Associado";
 }
-<h1>Teste</h1>
-<div class="text-center">
-    <h1 class="display-4">Associado</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
 
 @* <div class="btn-group" role="group">
     <a role="button" class="btn btn-primary">Editar</a>
     </div> *@
-
+<div class="d-flex flex-row-reverse mt-3">
+    <a role="button" class="btn btn-danger px-4" asp-controller="Associado"
+        asp-action="Sair">Sair</a>
+</div>
 <table class="table">
     <thead>
         <tr>
@@ -42,7 +41,7 @@
             <td>
 
                 <div class="btn-group" role="group">
-                    <a role="button" class="btn btn-primary" asp-route-id="@Model.Id" asp-controller="Associado"
+                    <a role="button" class="btn btn-primary px-4" asp-route-id="@Model.Id" asp-controller="Associado"
                         asp-action="Editar">Editar</a>
                 </div>
 

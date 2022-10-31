@@ -47,3 +47,11 @@ button.accept-policy[b-cvsfe71dir] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.cor-fonte[b-cvsfe71dir]{
+  color: white;
+}
+
+.cor-fundo[b-cvsfe71dir]{
+  background-color: #09365d;
+}
